@@ -1,0 +1,352 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    background: linear-gradient(1000deg, #e6aecf 20%, #11c2dd 90%);
+}
+.header {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 30px;
+}
+.header img {
+    width: 6vw;
+}
+
+.header div {
+    display: flex;
+}
+.header div p{
+    margin: 7px 20px;
+    color: aliceblue;
+}
+
+.header button{
+    background-color: aliceblue;
+    color: #2690e6;
+    border: 2px solid #265cc5;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.header button i{
+    margin: 0px 5px;
+    font-size: 18px;
+}
+.header button:hover {
+    background-color: #265cc5;
+    color: aliceblue;
+    border: 2px solid aliceblue;
+    transition: 0.5s;
+}
+
+.sign-up {
+    background-color: #fff;
+    margin: 0 auto;
+    align-items: center;
+    border-radius: 10px;
+    width: 420px;
+    border: 3px solid #5a56563d;
+    display: none;
+}
+.sign-up h1{
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.832);
+    font-size: 4.5vmin;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+    text-align: center;
+}
+.sign-up p{
+    text-align: center;
+    margin: 0px 0px 10px 0px;
+    color: #010101ab;
+}
+.sign-up a{
+    text-decoration: none;
+    color:#267bc5;
+    cursor: pointer;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=text], input[type=email], input[type=password], input[type=number]{
+    width: 70%;
+    padding: 8px 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
+  }
+  form i {
+    position: absolute;
+    margin-left: 320px;
+    margin-top: -25px;
+    cursor: pointer;
+}
+.margin-left {
+    margin-left: 70px;
+}
+.button{
+    margin: 20px 60px 10px 60px;
+    background-color: #265cc5;
+    color: white;
+    border: none;
+    width: 70%;
+    padding: 8px 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 6px;
+    cursor: pointer; 
+}
+.button:hover {
+    background-color: #2f69def9;
+    transition: 0.5s;
+}
+.button i{
+    margin: 0px 10px;
+    font-size: 20px;
+}
+.paraSign {
+    font-size: 13px;
+    word-spacing: 1px;
+}
+
+/* sign-in frame */
+.sign-in {
+    background-color: #fff;
+    margin: 0 auto;
+    align-items: center;
+    border-radius: 10px;
+    width: 420px;
+    border: 3px solid #5a56563d;
+}
+.sign-in img{
+    display: block;
+    width: 50%;
+    margin: 20px auto 20px auto;
+}
+.sign-in h1{
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.832);
+    font-size: 4vmin;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    margin: 3px 0px;
+    text-align: center;
+}
+.sign-in p{
+    text-align: center;
+    margin: 0px 0px 10px 0px;
+    color: #010101ab;
+    word-spacing: 1px;
+}
+.sign-in p a{
+    cursor: pointer;
+}
+.par {
+    text-align: center;
+    color: #010101ab;
+    word-spacing: 1px;
+}
+.par a{
+    text-decoration: none;
+    color: #267bc5;
+}
+
+/* Quiz option frame */
+
+#heading-Quiz-Frame {
+    font-size: 40px;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 15px 40px 40px 40px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    display: none;
+}
+#heading-Quiz-Frame hr{
+    margin-top: 20px;
+}
+.quiz-frame {
+    display: none;
+    border: 2px solid white;
+    width:500px;
+    margin: 0 auto;
+    border-radius: 7px;
+}
+.heading {
+    display: flex;
+    width: 100%;
+    background-color: #ccc;
+    padding: 5px 12px;
+}
+.heading i{
+    margin: 5px;
+    cursor: pointer;
+}.heading p{
+    margin: 5px;
+}
+.quiz-frame-body {
+    margin: 10px;
+    display: none;
+}
+.quiz-frame-body .heading {
+    border-radius: 5px;
+    border: 2px solid white;
+}
+.sub-quiz-frame-body {
+    margin: 10px 5px;
+    background-color: #ccc;
+    border-radius: 5px;
+    border: 2px solid white;
+    display: none;
+}
+.sub-quiz-frame-body p {
+    margin: 15px 10px;
+}
+.sub-quiz-frame-body .button {
+    width: 20%;
+    margin: 15px 0px 25px 10px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 6px 0px;
+}
+.css .heading {
+    border-top: 2px solid white;
+}
+.js .heading {
+    border-top: 2px solid white;
+}
+.btn {
+    background-color: #265cc5;
+    color: aliceblue;
+    padding: 4px 10px;
+    font-size: 18px;
+    margin: 10px;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 4px;
+    cursor: pointer; 
+}
+.btn:hover {
+    background-color: #3972e6;
+    border: none;
+    transition: 0.5s;
+}
+.quiz {
+    display: none;
+    border: 2px solid white;
+    width:500px;
+    margin: 0 auto;
+    border-radius: 7px;
+}
+.quiz-content{
+    display: none;
+    margin: 40px 70px 0px 70px;
+    font-size: 24px;
+}
+.question {
+    margin: 0px 0px 20px 0px;
+}
+#quizHead {
+    margin-bottom: 25px;
+    font-size: 22px;
+}
+.question h3{
+    color: white;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+.option div {
+    background-color: #ccc;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0px;
+}
+.option div input{
+    margin: 0px 18px 0px 6px;
+    cursor: pointer;
+}
+.footer {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer button {
+    background-color: aliceblue;
+    color: #265cc5;
+    border: 2px solid #265cc5;
+    padding: 4px 16px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 6px;
+    cursor: pointer; 
+}
+.footer button:hover {
+    background-color: #265cc5;
+    color: aliceblue;
+    border: 2px solid aliceblue;
+    transition: 0.5s;
+}
+.result {
+    display: none;
+}
+#result_Header {
+    margin: 40px 100px 0px 100px;
+}
+#result_Header p {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: white;
+}
+#result_mid {
+    width: 450px;
+    text-align: center;
+    word-spacing: 6px;
+    letter-spacing: 1px;
+    margin: 0 auto;
+
+}
+.totalQues, .correctQues {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+#heading {
+    margin: 20px 0px;
+}
+.result button {
+    background-color: aliceblue;
+    color: #265cc5;
+    border: 2px solid #265cc5;
+    margin-top: 20px;
+    padding: 4px 16px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer; 
+}
+.perc {
+    border: 1px solid black;
+    color: aliceblue;
+    border-radius: 50%;
+    width: 110px;
+    padding: 30px;
+    margin: 30px 160px;
+    font-size: 30px;
+}
